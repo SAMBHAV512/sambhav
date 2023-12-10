@@ -1,0 +1,148 @@
+*{
+    margin:2px;
+    padding: 2px;
+ }
+body{
+    background-color: aliceblue;
+ }
+nav{
+    display: block;
+    background-color: rgb(27, 80, 80);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    gap: 20px;
+    position:sticky;
+}ul{
+    margin-top: 10px;
+}
+li{
+    display: inline;
+    background-color: rgb(124, 72, 7);
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+li:hover{
+    background-color: rgb(216, 158, 72);
+    color: white;
+    transition: 0.9s;
+}
+.upperheading{
+    display: flex;
+    background-color: beige;
+}
+.heading{
+    background-color: rgb(207, 189, 161);
+    margin-top: 50px;
+    width: 250px;
+    margin-left: 50px;
+    height: 150px;
+    border: 2px solid rgb(50, 15, 15);
+    box-shadow: 50px;
+}
+#h2{
+    margin-left: 75%;
+}
+.heading2{
+    background-color: rgb(207, 189, 161);
+    margin-top: 50px;
+    width: 250px;
+  margin-left: 70%;
+  height: 150px;
+  border: 2px solid rgb(50, 15, 15);
+  box-shadow: 50px;
+}
+.container{
+    background-color: rgb(8, 144, 99);
+    height: 900px;
+}
+
+.codezone{
+    background-color: aqua;
+    
+ height: 1000px;
+   
+     margin-top: 28%;
+
+}
+#site1{
+    background-color: white;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times,serif ;
+ width: 500px;
+    
+    margin-top: 10px;
+    padding: 0px;
+    padding-top: 23px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+                              
+}
+.code1{
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.code1img{
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+}
+#site1:hover{
+    background-color: pink;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.aside{
+     float: right;
+    background-color: rgb(177, 128, 222);
+    height: 800px;
+    margin-bottom: 50px;
+    position: relative;
+   width: 250px;
+   border: 5px solid sandybrown;
+   font-size: 32px;
+   box-shadow: 10px 20px 50px slategrey;
+   animation:color 4s  infinite;
+   -webkit-animation: infinite;
+}
+.aside{
+    animation: colorchang 3s infinite ;
+    
+}
+@keyframes colorchang{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: rgb(22, 201, 192);
+    }
+    100%{
+        background-color: aquamarine;
+    }
+}
+#btn1{
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color:white;
+   box-shadow: 20px 20px 50px blue;
+ margin-left: 950px;
+ cursor: pointer;
+}
+#btn2{ 
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color:white;
+    box-shadow: 20px 20px 50px blue;
+   float: left;
+   cursor: pointer;  
+} 
