@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Songs</li>
+            <li>Gallery</li>
+            <li>About me</li>
+            <li>Amine</li>
+        </ul>
+    </nav>
+
+<div class="container">
+        <div class="songlist1">
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+                <div class="songitem1">
+                    <h2>camila cambello hevana</h2>
+                </div>
+            </div>
+       <!--this part of code is finish another is about to start for aside with margin-->  
+      <div class="songlist2">
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>  
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div><div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+                <div class="songitem2">
+                    <h2>Shawn mender treat you better</h2>
+                </div>
+         </div>
+             <div class="songlist3">
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+                <div class="songitem3">
+                    <h2>Louis Fonsi Despacito</h2>
+                </div>
+              </div>
+  </div>
+ <div class="bottom">
+    
+    <div id="progress-container">
+        <div id="progress-bar">0%</div>
+    </div>
+
+    <button onclick="updateProgress()">Update Progress</button>
+
+    <script>
+        function updateProgress() {
+            // Get the progress bar element
+            var progressBar = document.getElementById("progress-bar");
+
+            // Update the progress value (for example, increase it by 10%)
+            var currentProgress = parseInt(progressBar.style.width) || 0;
+            var newProgress = currentProgress + 10;
+
+            // Limit the progress to 100%
+            newProgress = Math.min(newProgress, 100);
+
+            // Update the progress bar width and text
+            progressBar.style.width = newProgress + "%";
+            progressBar.innerHTML = newProgress + "%";
+        }
+    </script>
+ </div>
+</body>
+</html>
