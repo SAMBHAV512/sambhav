@@ -147,5 +147,6 @@ li:hover{
    cursor: pointer;  
 } 
 #about{
-    test-docoration:none;
+    text-decoration:none;
     color:black;
+}
