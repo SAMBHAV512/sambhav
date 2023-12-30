@@ -1,0 +1,101 @@
+
+
+#welcome{
+  color: white;
+  position: relative;
+  top: 10vh;
+  left: 2vw;
+  border: 1px solid white;
+  width: 60vmin;
+}
+.secondtop{
+  background-color: rgb(160, 122, 74);
+  height: 50vh;
+  width: 90vw;
+}
+.text-container {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #333; /* Simulates the cursor */
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
+  color: white;
+left: 2vh;
+ position: relative;
+top: 15vh;
+ font-size: 5vmin;
+
+}
+#me{
+ border-radius: 5px;
+  height: 40vmin;
+  width:35vmin ;
+  position: relative;
+  top: 40vmin;
+  -webkit-box-shadow: 18px 22px 41px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 22px 41px -14px rgba(0,0,0,0.75);
+box-shadow: 18px 22px 41px -14px rgba(0,0,0,0.75);
+animation: me 2s infinite;
+
+
+
+transition: 8s;
+}
+
+
+@keyframes  me{
+  0%{
+    
+  left: 50vmin;
+    
+    transition: 9s;
+  }
+  100%{
+    transition: 5s;
+   left: 10vh; 
+  }
+}
+#native{
+  position: absolute;
+  top: 80vmin;
+  color: aliceblue;
+  background-color: rgb(170, 107, 228);
+  font-size: 2rem;
+  border-radius: 5vh;
+  -webkit-box-shadow: 18px 22px 41px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 22px 41px 0px rgba(0,0,0,0.75);
+box-shadow: 18px 22px 41px 0px rgba(0,0,0,0.75);
+ width: 60vmin;
+ text-align: center;
+}
+.middle{
+  background-color: aqua;
+  border-radius: 50px 50px 100px 100px;
+-moz-border-radius: 50px 50px 100px 100px;
+-webkit-border-radius: 50px 50px 100px 100px;
+border: 0px solid #000000;
+text-align: center;
+height: 70vmin;
+width: 80vmin;
+position: relative;
+left: 1vmin;
+bottom: 60vmin;
+}
+#skills{
+  font-size: 2rem;
+}
+ul{
+  list-style: none;
+  font-size: 5vmin;
+}
+.main{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.footer{
+  position: relative;
+  bottom: 30vh;
+}
